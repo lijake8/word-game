@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Grid from './components/Grid';
 import Keyboard from './components/Keyboard';
