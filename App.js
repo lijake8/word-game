@@ -1,11 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Grid from './components/Grid';
+import Keyboard from './components/Keyboard';
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Grid></Grid>
+      <Keyboard></Keyboard>
     </View>
   );
 }
